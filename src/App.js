@@ -120,11 +120,11 @@ const App = ({ signOut }) => {
                 style={{ width: 400 }}
               />
             )}
-    <Button variation="link" onClick={() => deleteNote(note)}>
-      Delete note
-    </Button>
-  </Flex>
-))}
+            <Button variation="link" onClick={() => deleteNote(note)}>
+              Delete note
+            </Button>
+          </Flex>
+        ))}
       </View>
       <Button onClick={signOut}>Sign Out</Button>
     </View>
